@@ -47,7 +47,7 @@ def pkgconfig(*packages):
 lua_pkgconfig = pkgconfig('lua', 'lua' + LUAVERSION)
 
 setup(name="lunatic-python-bugfix",
-      version="1.1",
+      version="1.1.1",
       description="Two-way bridge between Python and Lua",
       author="Gustavo Niemeyer",
       author_email="gustavo@niemeyer.net",
